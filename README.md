@@ -11,3 +11,5 @@ It is Made using HTML5 CSS3 and JavaScript.
 3.The main logic use in this stopwatch project is the set timeout function.
 
 Site is live at https://pradeepbhangi-01.github.io/Stopwatch/
+
+Video Link - https://youtu.be/BSLAgIIYZJk
