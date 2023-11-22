@@ -1,0 +1,47 @@
+body {
+  background-color: rgba(35, 121, 163, 0.674) important;
+}
+
+/* stopwatch container */
+
+.container {
+  background-color: rgb(85, 3, 73);
+  width: 50% !important;
+  margin-top: 20vh;
+  height: 50vh;
+  font-size: 10vw;
+  font-family: "Lato", sans-serif;
+  border-radius: 40px;
+  box-shadow: 1px 1px 11px 8px grey;
+  display: flex;
+}
+
+/* stopwatch-buttons */
+
+.buttons {
+  font-family: "Lato", sans-serif;
+  margin-bottom: auto;
+}
+
+.buttons button {
+  box-shadow: 1px 1px 8px 4px rgb(112, 106, 106);
+}
+
+/* media-query for less than equal 700 px */
+@media screen and (max-width: 700px) {
+  .count-down {
+    position: relative;
+    top: 3vh;
+  }
+
+  .buttons {
+    position: relative;
+    top: 2vh;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .btn {
+    margin-bottom: 4vh;
+  }
+}
